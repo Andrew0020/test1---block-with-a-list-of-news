@@ -1,5 +1,5 @@
 .App {
-  margin-top: 40px;
+  margin: 40px 0 20px;
   text-align: center;
 }
 
@@ -10,4 +10,18 @@
   margin: 0 10px 20px;
   padding-bottom: 20px;
   width: calc(20% - 20px);
+}
+
+.Button {
+  background: mediumpurple;
+  display: block;
+  margin: 0 auto 50px;
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+}
+
+.Button:hover {
+  background: #D8BFD8;
+  cursor: pointer;
 }
