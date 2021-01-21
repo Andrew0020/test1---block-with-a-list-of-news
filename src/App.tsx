@@ -1,19 +1,27 @@
-import React, { useState } from 'react';
+import * as React from 'react';
+import {ReactElement, useState} from 'react';
 import './App.css';
 import Card from './components/Card/Card';
 import arr from './data';
 
+interface IArrElem {
+    id: number;
+    title: string;
+    text: string;
+    img: ReactElement;
+}
+
 const arrLength = arr.length;
 
-const ShowContent = ({ data }) => {
+const ShowContent = ({ data }: {data: Array<IArrElem>}) => {
     return (
         <div className="App">
-            { data.map(item => <Card key={item.id} title={item.title} text={item.text} img={item.img} /> )}
+            { data.map((item: IArrElem) => <Card key={item.id} title={item.title} text={item.text} img={item.img} /> )}
         </div>
     );
 }
 
-const ShowMore = ({ setData, range, setRange }) => {
+const ShowMore = ({ setData, range, setRange }: {setData: Function; range: number; setRange: Function;}) => {
     const handleClick = () => {
         if (range < arrLength) {
             setRange(range + 5);
