@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+Реализовать блок со списком новостей на react + typescript, без классов, на функциональных компонентах, без redux.
+
+Начальные условия:
+1) Изначально есть список из 5 новостей (заголовок, описание, картинка)
+2) По кнопке "загрузить еще" нужно подгрузить  еще 5 новостей
+3) Определить момент и реализовать ситуацию, когда новостей больше нет (прячем кнопку "загрузить еще")# Getting Started with Create React App
+
+---------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
