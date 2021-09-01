@@ -1,11 +1,11 @@
 https://andrew0020.github.io/test/
 
-Реализовать блок со списком новостей на react + typescript, без классов, на функциональных компонентах, без redux.
+Implement a block with a news list in react + typescript, without classes, on functional components, without redux.
 
-Начальные условия:
-1) Изначально есть список из 5 новостей (заголовок, описание, картинка)
-2) По кнопке "загрузить еще" нужно подгрузить  еще 5 новостей
-3) Определить момент и реализовать ситуацию, когда новостей больше нет (прячем кнопку "загрузить еще")# Getting Started with Create React App
+Initial conditions:
+1) Initially, there is a list of 5 news (headline, description, picture)
+2) By clicking the "download more" button, you need to download 5 more news
+3) Determine the moment and implement the situation when there is no more news (hide the "download more" button)
 
 ---------------
 
