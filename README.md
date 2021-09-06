@@ -1,6 +1,6 @@
 # Block with a list of news
 
-https://andrew0020.github.io/test/
+https://andrew0020.github.io/test1---block-with-a-list-of-news/
 
 Implement a block with a news list in react + typescript, without classes, on functional components, without redux.
 
